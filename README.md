@@ -10,3 +10,16 @@ Amazon、Yahoo!ショッピング、楽天市場、ビックカメラなどの�
 *   複数サイト（Amazon, Yahoo, Rakuten, BicCamera）の一括検索
 *   検索結果の価格比較一覧
 *   素早いレスポンスと正確な情報表示
+
+## 実行方法
+
+1. 依存関係のインストール
+   ```bash
+   uv sync
+   uv run playwright install chromium
+   ```
+
+2. アプリケーションの起動
+   ```bash
+   uv run streamlit run src/market_price_checker/app.py
+   ```
