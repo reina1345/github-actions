@@ -43,7 +43,7 @@ gh release create "$VERSION" \
   .genreleases/spec-kit-template-qoder-sh-"$VERSION".zip \
   ".genreleases/spec-kit-template-qoder-ps-${VERSION}.zip" \
   ".genreleases/spec-kit-template-jules-sh-${VERSION}.zip" \
-  ".genreleases/spec-kit-template-jules-ps-${VERSION}.zip"
+  ".genreleases/spec-kit-template-jules-ps-${VERSION}.zip" \
   .genreleases/spec-kit-template-amp-sh-"$VERSION".zip \
   .genreleases/spec-kit-template-amp-ps-"$VERSION".zip \
   .genreleases/spec-kit-template-shai-sh-"$VERSION".zip \
